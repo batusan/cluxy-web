@@ -7,6 +7,7 @@ export default function HorizontalLogo() {
       height={128}
       width={128}
       alt="Cluxy logo"
+      priority
     />
   );
 }

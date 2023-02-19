@@ -7,7 +7,7 @@ export default function Footer() {
   return (
     <div
       id="footer"
-      className="mt-20 mb-8 text-white flex flex-col justify-center items-center gap-4"
+      className="mt-20 pb-8 text-white flex flex-col justify-center items-center gap-4"
     >
       <HorizontalLogo />
       <div className="text-base font-light">Privacy Policy</div>
