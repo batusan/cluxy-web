@@ -16,7 +16,7 @@ body {
 #bg {
   opacity: 0.03;
   background: linear-gradient(to bottom, transparent, #000),
-    url("/images/cluxy-bg.png") 0% 0%;
+    url("/images/cluxy-bg.webp") 0% 0%;
   background-size: 70%;
   background-repeat: repeat;
   animation: bg-anim 30s linear infinite;

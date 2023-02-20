@@ -13,8 +13,8 @@ export default function RightMenu() {
 
   return (
     <div className="flex flex-col gap-4">
-      {commandArray.map((elem) => {
-        return <MenuItem key={elem} />;
+      {commandArray.map((elem,i) => {
+        return <MenuItem key={i} />;
       })}
     </div>
   );
