@@ -33,7 +33,7 @@ export default function Header() {
             </Link>
             <button className="relative inline-flex items-center justify-center p-0.5 mb-2 mr-2 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-[#395cf3] to-[#ff2d95]  dark:text-white focus:ring-4 focus:outline-none focus:ring-transparent dark:focus:ring-transparent">
               <span
-                className="relative flex justify-center items-center  px-12 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-black rounded-md"
+                className="relative flex justify-center items-center  px-12 py-2.5 transition-all ease-in duration-75 bg-black rounded-md"
                 onClick={() => navigateDiscord()}
               >
                 <DiscordIcon />
@@ -64,7 +64,7 @@ export default function Header() {
         </Link>
         <button className="relative inline-flex items-center w-full justify-center p-0.5 mb-2 mr-2 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-[#395cf3] to-[#ff2d95]  dark:text-white focus:ring-4 focus:outline-none focus:ring-transparent dark:focus:ring-transparent">
           <span
-            className="relative flex justify-center w-full items-center  px-12 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-black rounded-md"
+            className="relative flex justify-center w-full items-center  px-12 py-2.5 transition-all ease-in duration-75 bg-black rounded-md"
             onClick={() => navigateDiscord()}
           >
             <DiscordIcon />
