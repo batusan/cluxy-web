@@ -14,8 +14,8 @@ export default function HeroSection() {
       <div className="text-base lg:text-lg mt-8 lg:mt-10 font-light text-white/50">
         Powered by AI, integrated with Zoom, Notion, and Google Meet.
       </div>
-      <button className="relative inline-flex items-center justify-center mt-12 p-0.5 mb-2 mr-2 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-[#395cf3] to-[#ff2d95]  dark:text-white focus:ring-4 focus:outline-none focus:ring-transparent dark:focus:ring-transparent">
-        <span className="relative flex justify-center items-center  px-12 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-black rounded-md">
+      <button className="relative inline-flex items-center justify-center mt-12 p-0.5 mb-2 mr-2 overflow-hidden text-sm font-medium rounded-lg group bg-gradient-to-br from-[#395cf3] to-[#ff2d95]  text-white focus:ring-4 focus:outline-none  focus:ring-transparent">
+        <span className="relative flex justify-center items-center  px-12 py-2.5 transition-all ease-in duration-75 bg-black rounded-md">
           <PlusIcon />
           <span className="ml-2">Learn more</span>
         </span>
