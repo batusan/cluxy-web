@@ -24,7 +24,7 @@ export default function SplashImage() {
           iframeClass="" // Default none, gives control to add a class to iframe element itself
           playerClass="lty-playbtn" // Default as "lty-playbtn" to control player button styles
           wrapperClass="yt-lite h-full w-full rounded-lg" // Default as "yt-lite" for the div wrapping the area, the most important class and needs extra attention, please refer to LiteYouTubeEmbed.css for a reference.
-          poster="maxresdefault"
+          thumbnail="/images/discordimage.webp"
         />
       </div>
     </div>

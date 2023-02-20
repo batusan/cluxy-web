@@ -1,4 +1,4 @@
-"use client";
+"use client"
 import HorizontalLogo from "./Icons/horizontalLogo";
 import MenuIcon from "./Icons/menuIcon";
 import Link from "next/link";
