@@ -1,4 +1,4 @@
-"use client"
+"use client";
 import HorizontalLogo from "./Icons/horizontalLogo";
 import MenuIcon from "./Icons/menuIcon";
 import Link from "next/link";
@@ -26,6 +26,9 @@ export default function Header() {
             <Link href="/faq">
               <div className="mb-4">FAQ</div>
             </Link>
+            <Link href="https://google.com">
+              <div className="mb-4">Discord</div>
+            </Link>
           </div>
           <div
             className="lg:hidden"
@@ -47,6 +50,9 @@ export default function Header() {
         </Link>
         <Link href="/faq">
           <div className="mb-4">FAQ</div>
+        </Link>
+        <Link href="https://google.com">
+          <div className="mb-4">Discord</div>
         </Link>
       </div>
     </div>

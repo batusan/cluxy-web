@@ -13,16 +13,6 @@ body {
     #ff2d95 0px 0px 50px, #ff2d95 0px 0px 75px;
 }
 
-#bg {
-  opacity: 0.03;
-  background: linear-gradient(to bottom, transparent, #000),
-    url("/images/cluxy-bg.webp") 0% 0%;
-  background-size: 70%;
-  background-repeat: repeat;
-  animation: bg-anim 30s linear infinite;
-  /*animation: bg-anim 15s ease infinite;*/
-}
-
 .fade {
   animation: fadeIn 2s forwards;
 }
@@ -33,49 +23,5 @@ body {
   }
   100% {
     opacity: 1;
-  }
-}
-
-@keyframes bg-anim {
-  0% {
-    background-position: 60% 100%;
-  }
-  50% {
-    background-position: 60% 500%;
-  }
-  100% {
-    background-position: 60% 1000%;
-  }
-}
-
-@media screen and (max-width: 1400px) {
-  #bg {
-    background-size: 80%;
-    animation: bg-anim 70s linear infinite;
-    /*animation: bg-anim 15s ease infinite;*/
-  }
-}
-
-@media screen and (max-width: 1200px) {
-  #bg {
-    background-size: 90%;
-    animation: bg-anim 70s linear infinite;
-    /*animation: bg-anim 15s ease infinite;*/
-  }
-}
-
-@media screen and (max-width: 992px) {
-  #bg {
-    background-size: 120%;
-    animation: bg-anim 70s linear infinite;
-    /*animation: bg-anim 15s ease infinite;*/
-  }
-}
-
-@media screen and (max-width: 600px) {
-  #bg {
-    background-size: 160%;
-    animation: bg-anim 100s linear infinite;
-    /*animation: bg-anim 15s ease infinite;*/
   }
 }
