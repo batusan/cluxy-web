@@ -2,6 +2,10 @@
 import useOnScreen from "@/hooks/useOnScreen";
 import { useRef } from "react";
 import SpecialItem from "./specials/specialtem";
+import EasyManagementIcon from "@/assets/easy-m.png";
+import RefreshIcon from "@/assets/refresh.png";
+import UptimeIcon from "@/assets/uptime.png";
+import SecurityIcon from "@/assets/security.png";
 
 export default function SpecialSection() {
   // Ref for the element that we want to detect whether on screen
@@ -21,11 +25,23 @@ export default function SpecialSection() {
       <h1 className="text-4xl px-4 text-center mt-12">
         What makes <span className="cluxy-text-hero">Cluxy</span> so special ?
       </h1>
-      <div className="mt-24 lg:mt-32 flex flex-wrap">
-        <SpecialItem title="Save time & resources" />
-        <SpecialItem title="Easy to customize" />
-        <SpecialItem title="Clean & organized" />
-        <SpecialItem title="Professional & credible" />
+      <div className="mt-24 lg:mt-32 flex flex-wrap justify-center items-center">
+        <SpecialItem
+          title="Easy management"
+          icon={EasyManagementIcon}
+          desc={
+            "We have a simple and user-friendly bot, so you can easily monitor your game server with us."
+          }
+        />
+        <SpecialItem
+          title="Auto Refresh"
+          icon={RefreshIcon}
+          desc={
+            "Your game server will be updated automatically after you have added it once."
+          }
+        />
+        <SpecialItem title="99.9% Uptime Guarantee" icon={UptimeIcon} desc={"Our bots are working 24/7 with constant monitoring your game server."} />
+        <SpecialItem title="Security" icon={SecurityIcon} desc={"Our bots are automatically protected from attacks so that our bots are always smoothly accessible."} />
       </div>
     </div>
   );
