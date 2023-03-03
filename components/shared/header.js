@@ -25,6 +25,9 @@ export default function Header() {
         </Link>
         <div>
           <div className="hidden lg:flex lg:items-center lg:justify-center lg:gap-9">
+            <Link href="/games">
+              <div className="mb-4">Supported Games</div>
+            </Link>
             <Link href="/commands">
               <div className="mb-4">Commands</div>
             </Link>
@@ -55,6 +58,9 @@ export default function Header() {
       >
         <Link href="/">
           <div className="mb-4">Home</div>
+        </Link>
+        <Link href="/games">
+          <div className="mb-4">Supported Games</div>
         </Link>
         <Link href="/commands">
           <div className="mb-4">Commands</div>

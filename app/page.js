@@ -1,3 +1,4 @@
+"use client";
 import Landing from "@/components/landing";
 import { Inter } from "@next/font/google";
 
