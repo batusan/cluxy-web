@@ -12,7 +12,7 @@ export default function Landing() {
       <Background />
       <Header />
       <HeroSection />
-      {/*<SplashImage />*/}
+      <SplashImage />
       <SpecialSection />
       <UsageStats />
       <Footer />
