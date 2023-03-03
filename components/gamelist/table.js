@@ -23,7 +23,10 @@ export default function Table() {
         <tbody>
           {Games?.map((game, index) => {
             return (
-              <tr key={index} className=" bg-black border-zinc-900 divide-y divide-zinc-900 hover:bg-zinc-700">
+              <tr
+                key={index}
+                className=" bg-black border-zinc-900 divide-y divide-zinc-900 hover:bg-zinc-700"
+              >
                 <th
                   scope="row"
                   className="px-6 py-4 font-medium whitespace-nowrap text-white"
