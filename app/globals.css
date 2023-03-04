@@ -18,6 +18,7 @@ body {
 }
 
 #MessageSVG {
+  scale: 2;
   animation: play 2s forwards;
 }
 
