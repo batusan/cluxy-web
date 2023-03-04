@@ -1,4 +1,6 @@
-function Mockup() {
+import React from "react";
+
+export default function Mockup() {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
@@ -10,11 +12,14 @@ function Mockup() {
     >
       <g>
         <path
-          fill="#9B9B9B"
+          shapeRendering={"auto"}
+          fill="#37393F"
           d="M2152.96 20.603c2.04-7.62-1.57-18.103-9.46-18.103l-1896.789 3a12 12 0 00-11.592 8.897L5.5 859.5c-2.04 7.621 7.246 14.5 15.135 14.5H1915.29c5.43 0 10.19-3.649 11.59-8.897l226.08-844.5z"
         ></path>
+
         <g>
           <path
+            shapeRendering={"auto"}
             fill="#37393F"
             d="M577.523.954H2141.52c6.63 0 10.61 5.19 8.9 11.592l-226.73 846.151c-1.71 6.401-8.48 11.591-15.1 11.591H344.585L577.523.954z"
           ></path>
@@ -405,18 +410,21 @@ function Mockup() {
         </g>
         <g clipPath="url(#clip16_11_47)">
           <path
+            shapeRendering={"auto"}
             fill="#2E3036"
             d="M0 0H272V900H0z"
             transform="matrix(1 0 -.25882 .96593 305.523 .954)"
           ></path>
           <g clipPath="url(#clip17_11_47)">
             <path
+              shapeRendering={"auto"}
               fill="#2E3036"
               d="M0 0H272V851H0z"
               transform="matrix(1 0 -.25882 .96593 292.84 48.285)"
             ></path>
             <g>
               <path
+                shapeRendering={"auto"}
                 fill="#292B2F"
                 d="M0 0H272V52H0z"
                 transform="matrix(1 0 -.25882 .96593 86.044 820.059)"
@@ -609,6 +617,7 @@ function Mockup() {
         </g>
         <g>
           <path
+            shapeRendering={"auto"}
             fill="#202225"
             d="M230.417 12.545c1.715-6.401 8.478-11.59 15.106-11.59h60L72.585 870.287h-60c-6.627 0-10.61-5.19-8.894-11.591L230.417 12.545z"
           ></path>
@@ -909,6 +918,7 @@ function Mockup() {
         </clipPath>
         <clipPath id="clip17_11_47">
           <path
+            shapeRendering={"auto"}
             fill="#fff"
             d="M0 0H272V851H0z"
             transform="matrix(1 0 -.25882 .96593 292.84 48.285)"
@@ -1132,5 +1142,3 @@ function Mockup() {
     </svg>
   );
 }
-
-export default Mockup;

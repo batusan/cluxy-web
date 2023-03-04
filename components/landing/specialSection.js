@@ -27,7 +27,7 @@ export default function SpecialSection() {
       </h1>
       <div className="mt-24 lg:mt-32 flex flex-wrap justify-center items-center">
         <SpecialItem
-          title="Easy management"
+          title="Easy Management"
           icon={EasyManagementIcon}
           desc={
             "We have a simple and user-friendly bot, so you can easily monitor your game server with us."
@@ -41,7 +41,7 @@ export default function SpecialSection() {
           }
         />
         <SpecialItem title="99.9% Uptime Guarantee" icon={UptimeIcon} desc={"Our bots are working 24/7 with constant monitoring your game server."} />
-        <SpecialItem title="Security" icon={SecurityIcon} desc={"Our bots are automatically protected from attacks so that our bots are always smoothly accessible."} />
+        <SpecialItem title="Security" icon={SecurityIcon} desc={"The bots are automatically protected from attacks so that our bots are always smoothly accessible."} />
       </div>
     </div>
   );
