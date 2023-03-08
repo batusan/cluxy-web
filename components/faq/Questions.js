@@ -1,23 +1,27 @@
 const questions = [
   {
-    question: "What is this server about?",
+    question: "What is Cluxy?",
     answer:
-      "First and foremost, this is the Official Discord server of The Cluxy BOT. Which allows you to monitor your Game server, and tracks the live data of it.",
+      "Cluxy is a discord bot which allow you to monitoring your game server on discord.",
   },
   {
-    question: "Is the BOT available?",
+    question: "Who can access to the Bot Commands?",
     answer:
-      "Unfortunately, we are still working on perfecting the BOT for your use. We are almost done with our BOT, but in the meantime we are working on our Official Website as-well. With continuous development, we will be done with our final product very soon.",
+      "User with the BAN_MEMBERS has permission to use the slash command.",
   },
   {
-    question: "What is the Early Member Role?",
-    answer:
-      "Any sort of benefits that this role offers will be available after we hit the 100th Discord server to invite our BOT.",
+    question: "What games are available?",
+    answer: "You can see all available games on our supported games page.",
   },
   {
-    question: "Any information on When the BOT will he released?",
+    question: "How do i add my server?",
     answer:
-      "As we mentioned above. We are close to finishing our job, so with the motivation we have to work on our Project, we can say approximately in 30 Days that we can release our BOT to the world of gaming.NOTE: If you have any other questions about our BOT or anything regarding our Project. Please be free to open a ticket in #create-ticket channel and talk to us there anytime. We will be live-supporting 24h a day.",
+      "On the commands page you will find all the commands you need to setup the bot.",
+  },
+  {
+    question: "I have a question that was not answered above, where can I ask it?",
+    answer:
+      "You are welcome to join our Discord server to get more information.",
   },
 ];
 
